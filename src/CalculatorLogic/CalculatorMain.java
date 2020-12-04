@@ -7,6 +7,8 @@ public class CalculatorMain {
      Calculator calculator = new Calculator(new LocalCalculator());
      do {
          calculator.calculate(consoleReader.readNext());
+         consoleReader.readHistory(consoleReader.keyboard);
+         consoleReader.printMenu();
      }
      while (consoleReader.hasNext());
    }
