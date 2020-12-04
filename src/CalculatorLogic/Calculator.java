@@ -15,7 +15,7 @@ public class Calculator {
     }
 
 
-    public void calculate(Formula formula) {
+    public Formula calculate(Formula formula) {
         switch (formula.getSign()) {
             case ADD -> {
                 formula.setResult(calculatorInterface.combine(formula.getX(), formula.getY()));
@@ -36,6 +36,7 @@ public class Calculator {
             default -> System.out.println("You have entered incorrect characters.\n" +
                     "Please enter one of the following characters: '+', '-', '*', '/' ");
         }
+        return formula;
     }
 
 }
