@@ -1,6 +1,6 @@
-package CalculatorLogic;
+package com.testautomation.CalculatorLogic;
 
-import CalculatorInterface.CalculatorInterface;
+import com.testautomation.CalculatorInterface.CalculatorInterface;
 
 public class Calculator {
     private final static char ADD = '+';
