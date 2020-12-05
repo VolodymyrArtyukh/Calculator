@@ -1,6 +1,6 @@
-package CalculatorLogic;
+package com.testautomation.CalculatorLogic;
 
-import CalculatorInterface.ReaderInterface;
+import com.testautomation.CalculatorInterface.ReaderInterface;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

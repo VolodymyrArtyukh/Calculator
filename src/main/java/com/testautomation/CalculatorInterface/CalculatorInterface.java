@@ -1,4 +1,4 @@
-package CalculatorInterface;
+package com.testautomation.CalculatorInterface;
 
 public interface CalculatorInterface {
     double combine(double x, double y);

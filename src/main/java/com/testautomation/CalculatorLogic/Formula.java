@@ -1,4 +1,4 @@
-package CalculatorLogic;
+package com.testautomation.CalculatorLogic;
 
 public class Formula {
     private double x;
