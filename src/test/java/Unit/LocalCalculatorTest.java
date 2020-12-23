@@ -1,3 +1,5 @@
+package Unit;
+
 import com.testautomation.CalculatorLogic.LocalCalculator;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
